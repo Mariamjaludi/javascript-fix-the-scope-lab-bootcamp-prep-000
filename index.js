@@ -20,10 +20,9 @@ function add2(n) {
 }
 
 function funkyFunction(){
-  function test(){
+ return function test(){
     return "FUNKY!"
-  }
-  return test()
+  }   
 }
 
 
