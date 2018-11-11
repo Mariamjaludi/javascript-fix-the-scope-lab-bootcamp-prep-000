@@ -20,12 +20,13 @@ function add2(n) {
 }
 
 
-function test(){
-  return "FUNKY!"
+function funkyFunction(){
+  return function test(){
+    return "FUNKY!"
+  }
 }
 
-var funkyFunction = test()
-var theFunk = funkyFunction
+var theFunk = funkyFunction()
 //var funkyFunction = function() {
 //  return function() {
   //  return "FUNKY!"
